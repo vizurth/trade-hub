@@ -1,0 +1,59 @@
+# Файлы Go
+/bin/
+/pkg/
+*.exe
+*.exe~
+*.so
+*.dll
+*.test
+*.out
+/coverage.txt
+
+# Goland IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+
+# macOS системные файлы
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Папки зависимостей
+vendor/
+
+# Локальные настройки
+
+# Тестовые данные
+/testdata/
+*.log
+
+# Бинарники и артефакты сборки
+/dist/
+/artifacts/
+/third_party/
+
+# Автогенерируемые файлы
+*.pb.go
+*.pb.gw.go
+*-generated.go
+
+# Профилирование
+*.prof
+*.trace
+*.mem
+*.cpu
+
+# Конфигурации редактора
+.vscode/
+*.code-workspace
