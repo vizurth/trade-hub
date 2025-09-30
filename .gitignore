@@ -57,3 +57,7 @@ vendor/
 # Конфигурации редактора
 .vscode/
 *.code-workspace
+
+# Конфигурационные файлы разработки
+config.env
+config.yaml
